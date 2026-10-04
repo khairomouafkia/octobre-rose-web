@@ -1,0 +1,29 @@
+{
+  "common": {
+    "appName": "Tamanina",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "guest": "Guest",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "confirmDeleteTitle": "Confirm deletion",
+    "confirmDeleteBody": "Are you sure? This cannot be undone."
+  },
+  "nav": {
+    "home": "Home",
+    "assistant": "Assistant",
+    "screenings": "Screenings",
+    "community": "Community",
+    "events": "Events",
+    "centers": "Screening centers",
+    "admin": "Admin",
+    "login": "Log in",
+    "logout": "Log out",
+    "enterApp": "Enter the platform"
+  }
+}

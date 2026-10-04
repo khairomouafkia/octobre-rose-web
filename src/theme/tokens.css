@@ -1,0 +1,102 @@
+/*
+  نظام تصميم "طمانينة": هوية صحية هادئة وموثوقة بصريًا.
+*/
+:root {
+  --bg-page: #f7f5ef;
+  --bg-paper: #fbfaf6;
+  --bg-hero: #f7e6eb;
+  --bg-soft: #dce8df;
+  --green-900: #244a3d;
+  --green-800: #355b51;
+  --green-700: #436b60;
+  --green-600: #587a70;
+  --green-500: #69897f;
+  --lily: #dce8df;
+  --rose-warm: #d96c8a;
+  --rose-soft: #f7e6eb;
+  --text-secondary: #76837c;
+  --text-soft: #87928b;
+  --line: rgba(36, 74, 61, 0.12);
+  --line-strong: rgba(36, 74, 61, 0.16);
+  --surface: rgba(255, 255, 255, 0.6);
+  --surface-strong: #ffffff;
+  --surface-ghost: rgba(255, 255, 255, 0.34);
+  --success: #5f8b78;
+  --success-soft: #dfece4;
+  --warning: #b98d42;
+  --warning-soft: #f3ecdc;
+  --danger: #a95d52;
+  --danger-soft: #f4dfdc;
+  --shadow-soft: 0 18px 28px rgba(28, 42, 38, 0.08);
+  --shadow-card: 0 10px 22px rgba(46, 61, 55, 0.08);
+  --shadow-popup: 0 26px 42px rgba(34, 41, 31, 0.15);
+  --font-sans: 'Noto Sans Arabic', 'DM Sans', 'Segoe UI', sans-serif;
+  --font-display: 'Playfair Display', 'Noto Sans Arabic', serif;
+  --content-max: 1160px;
+  --radius-xl: 34px;
+  --radius-lg: 27px;
+  --radius-md: 24px;
+  --radius-sm: 16px;
+  --radius-xs: 13px;
+  --header-height: 82px;
+  --header-height-mobile: 68px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--green-900);
+  background:
+    radial-gradient(circle at top left, rgba(217, 108, 138, 0.14), transparent 28%),
+    radial-gradient(circle at top right, rgba(95, 139, 120, 0.14), transparent 30%),
+    var(--bg-page);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(217, 108, 138, 0.45);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

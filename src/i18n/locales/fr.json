@@ -1,0 +1,29 @@
+{
+  "common": {
+    "appName": "Tamanina",
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "close": "Fermer",
+    "guest": "Visiteuse",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "confirmDeleteTitle": "Confirmer la suppression",
+    "confirmDeleteBody": "Êtes-vous sûre ? Cette action est irréversible."
+  },
+  "nav": {
+    "home": "Accueil",
+    "assistant": "Assistant",
+    "screenings": "Dépistages",
+    "community": "Communauté",
+    "events": "Événements",
+    "centers": "Centres de dépistage",
+    "admin": "Administration",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "enterApp": "Accéder à la plateforme"
+  }
+}
